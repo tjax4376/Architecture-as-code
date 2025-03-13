@@ -1,0 +1,27 @@
+Flowchart:
+Step 1, Step 2, Step 3
+Start, Process, End
+Start, Decision, Process
+Decision, Yes, End
+Decision, No, Process
+
+Sequence:
+Actor 1, Actor 2, Message
+User, System, Login
+System, Database, Query
+Database, System, Response
+System, User, Display
+
+Gantt Chart:
+Task, Section, Start Date, End Date
+Task 1, Section 1, 2025-03-01, 2025-03-05
+Task 2, Section 1, 2025-03-06, 2025-03-10
+Task 3, Section 2, 2025-03-11, 2025-03-15
+Task 4, Section 2, 2025-03-16, 2025-03-20
+
+Class Diagram:
+Entity 1, Entity 2, Relationship
+Customer, Order, places
+Order, Product, contains
+Product, Supplier, supplied_by
+Supplier, Warehouse, stores
