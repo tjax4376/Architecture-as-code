@@ -19,3 +19,10 @@ def generate_flowchart_code(csv_file):
 
     return mermaid_code
   
+csv_file = 'hierarchy.csv'
+mermaid_code = generate_flowchart_code(csv_file)
+print(mermaid_code)
+
+# Save the mermaid code to a file
+with open('mermaid_diagram.mmd', 'w') as file:
+    file.write(mermaid_code)
